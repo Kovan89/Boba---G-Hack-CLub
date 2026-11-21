@@ -1,0 +1,85 @@
+body {
+  font-family: system-ui, sans-serif;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  margin: 0;
+  text-align: center;
+  background-color: #ec3750;
+  -webkit-text-fill-color: white;
+}
+
+img {
+  width: 500px;
+  height: 300px;
+  position: relative;
+  ;
+
+
+}
+
+p {
+  position: relative;
+  margin: 10px 0;
+}
+
+h1 {
+  position: relative;
+  margin: 10px 0;
+}
+
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(51, 88, 211);
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.button-link:hover {
+  background-color: #0056b3;
+}
+
+.pump-dumge {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background: #2858D0;
+  color: white;
+  border-radius: 6px;
+  font-size: 18px;
+  cursor: pointerl;
+}
+
+#pumpa {
+  transition: transofmr 0.15s;
+  margin: 80px 0;
+}
+
+#pumpa.tres {
+  animation: tres 0.15s;
+}
+
+@keyframes tres {
+  0% {
+    transform: transleX(0);
+  }
+
+  25% {
+    transform: transleX(-5px);
+  }
+
+  75% {
+    transform: transleX(5px);
+  }
+
+  100% {
+    transform: transleX(0);
+  }
+}
